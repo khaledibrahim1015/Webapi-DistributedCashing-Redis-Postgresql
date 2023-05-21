@@ -1,6 +1,23 @@
+using DistributedCashingredisWebapi;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+var con =  builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddEntityFrameworkNpgsql().AddDbContext<AppDbContext>(
+
+opt => opt.UseNpgsql(con)
+    
+);
+
+
+
+
+
+
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
