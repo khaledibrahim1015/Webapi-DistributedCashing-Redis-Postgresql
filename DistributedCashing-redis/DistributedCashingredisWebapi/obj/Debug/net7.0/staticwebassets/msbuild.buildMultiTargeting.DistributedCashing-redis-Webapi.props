@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DistributedCashing-redis-Webapi.props" />
+</Project>

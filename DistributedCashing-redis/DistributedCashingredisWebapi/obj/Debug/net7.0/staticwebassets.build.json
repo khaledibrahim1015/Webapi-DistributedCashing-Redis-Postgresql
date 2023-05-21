@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7a1K76snVEpJwQHSXyfjydUckhu2CDOmE6J3XmQTp5g=",
+  "Source": "DistributedCashingredisWebapi",
+  "BasePath": "_content/DistributedCashingredisWebapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
