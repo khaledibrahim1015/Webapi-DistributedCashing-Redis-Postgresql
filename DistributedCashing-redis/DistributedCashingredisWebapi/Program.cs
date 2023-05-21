@@ -13,7 +13,7 @@ opt => opt.UseNpgsql(con)
 );
 
 
-
+builder.Services.AddScoped<ICacheService,CacheService>();
 
 
 
